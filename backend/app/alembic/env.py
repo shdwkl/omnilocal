@@ -20,6 +20,7 @@ fileConfig(config.config_file_name)
 
 from app.models import SQLModel  # noqa
 from app.domains.sync.models import SyncRecord # noqa
+from app.domains.posts.models import LocalPost # noqa
 from app.core.config import settings # noqa
 
 target_metadata = SQLModel.metadata
